@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.SwitchPreference
+        app:iconSpaceReserved="false"
+        android:key="@string/preference_key_status"
+        android:summaryOn="@string/preference_summary_status_enabled"
+        android:summaryOff="@string/preference_summary_status_disabled"
+        android:title="@string/preference_title_status"/>
+
+    <androidx.preference.Preference
+        app:iconSpaceReserved="false"
+        android:key="@string/preference_key_contacts"
+        android:summary="@string/preference_summary_contacts"
+        android:title="@string/preference_title_contacts" />
+
+    <androidx.preference.PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/preference_title_about">
+
+        <androidx.preference.Preference
+            app:iconSpaceReserved="false"
+            android:key="@string/preference_key_share"
+            android:title="@string/preference_title_share"
+            android:summary="@string/preference_summary_share"/>
+
+        <androidx.preference.Preference
+            app:iconSpaceReserved="false"
+            android:key="@string/preference_key_about"
+            android:title="@string/preference_title_about" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

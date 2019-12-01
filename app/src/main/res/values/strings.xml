@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Selective Silence</string>
+    <string name="app_description">Selective Silence is an app to avoid missing important calls during work, or when we leave our device on vibrate and forget to revert back. This app was a personal need so I\'m sharing the code. Feel free to add to it.</string>
+    <string name="action_grant">Grant</string>
+    <string name="message_permissions_request">Phone and Contacts permissions are required to use this app</string>
+    <string name="no_contacts_selected">No contacts selected</string>
+    <string name="title_whitelist">Whitelist</string>
+    <string name="title_about">About</string>
+
+    <!--preference screen-->
+
+    <!--keys-->
+
+    <string name="preference_key_status">status</string>
+    <string name="preference_key_contacts">contacts</string>
+    <string name="preference_key_share">share</string>
+    <string name="preference_key_about">about</string>
+
+    <!--keys-->
+
+    <!--titles-->
+
+    <string name="preference_title_status">@string/app_name</string>
+    <string name="preference_title_contacts">Whitelist</string>
+    <string name="preference_title_share">Share</string>
+    <string name="preference_title_about">About</string>
+
+    <!--titles-->
+
+    <!--summaries-->
+
+    <string name="preference_summary_status_enabled">Enabled</string>
+    <string name="preference_summary_status_disabled">Disabled</string>
+    <string name="preference_summary_contacts">No contacts added</string>
+    <string name="preference_summary_share">Let the world know about this app</string>
+
+    <!--summaries-->
+
+    <!--preference screen-->
+
+    <!--error messages-->
+
+    <string name="error_permission_denied_phone">Phone permission is required to switch phone state</string>
+    <string name="error_permission_denied_contacts">Contacts permission is required to choose contacts</string>
+    <string name="error_fetching_contact">There was a problem fetching contact</string>
+
+    <!--error messages-->
+
+</resources>
