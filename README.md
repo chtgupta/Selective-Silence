@@ -1,5 +1,7 @@
 # Selective Silence
 
+[DEPRECATED AND NOT MAINTAINED ANYMORE. IF YOU WANT TO TAKE THIS FORWARD, ADD CALL LOGS PERMISSION AND AND REPLICATE RIGNTONE MANUALLY ON API >= 23	]
+
 An app to **NOT** miss important calls while coding
 
 ![Selective Silence](https://i.ibb.co/LvdMwRB/screenshot-github.png)
